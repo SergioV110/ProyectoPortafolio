@@ -4,23 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
-<body>
-    <div id="header">
-        <center><h1>HOLA QUE TAL!!! SOY SERGIO. 
-            SOY UN ESTUDIANTE DE LA CARRERA DE INGENIERIA DE SISTEMAS</h1></center>
-        <hr>
-    </div>     
-    <header>
+<body class="body">
+    <div class="banner">
+        <p>Hola 👋, yo soy Sergio Velasquez soy</p>
+        <ul class="cas">
+            <li>Programador</li>
+            <li>Diseñador web</li>
+            <li>Fotografo</li>
+        </ul>
+    </div>
+</body>
+    
+<body class="body">
+    <header class="container">
+        <div class="nombre">
+            <h2>Sergio Velasquez</h2>
+        </div> 
         <nav>
-         <h2>Menu:</h2>
-            <ul>
-            <a href="A CERCA DE MI.html"><li>A cerca de mi</li></a>
-            <a href="Habilidades y herramientas.html"><li>Habilidades y herramientas</li></a>
-            <a href="contacto.html"><li>contacto</li></a>
+            <ul class="menu">
+            <a class="menu__opciones" href="#A CERCA DE MI">A cerca de mi</a>
+            <a class="menu__opciones" href="#Habilidades y herramientas">Habilidades y herramientas</a>
+            <a class="menu__opciones" href="#contacto">contacto</a>
+            <a class="menu__opciones" href="Proyectos que hice.html">Proyectos</a>
             </ul>
-        <hr>   
         </nav>
     </header> 
+    <main>
+        
+        <div class="item" id="A CERCA DE MI">
+            <h2> A Cerca de mi</h2>
+            <p>
+                Soy un estudiante universitario , me apasiona crear aspectos técnicos y visuales a las cosas digitales, me gusta la experiencia de crear algo mediante mi punto de vista visual como apps paginas y en ese tipo de estilo.
+                Tengo un certificado en mantenimiento y arreglo de computadoras, y de Excel avanzado del instituto técnico Domingo Savio.                
+                Realizo prototipos relacionados con la programación de Arduino, circuitos lógicos, me gusta tomar fotos a los paisajes en todo momento, también compongo y edito musical en el programa fl estudio.                
+                Ahora me estoy concentrando en sacar mi titulo universitario y ala vez entrando a talleres para mejorar mis habilidades en las áreas de tecnología y diseño.                
+            </p>
+        </div>
+
+<div class="item" id="Habilidades y herramientas">
+    <section class="caja_herramientas">
+        <div class="caja_herramientas_izquierda">
+            <h2>Habilidades y herramientas</h2>
+                <p>MI CAJA DE HERRAMIENTAS  Y COSAS QUE PUEDO HACER</p>
+                <P>Estos lenguajes son los que utilizo para dar vida a mis animaciones y programas cada una de ella tengo un conocimiento intermedio para lo cual me permite crear diferentes tipos de proyectos que se asemejan en mi carrera universitaria.
+                    me falto poner uno que otros programas a los cuales también tengo un conocimiento intermedio como photoshop y fl studio.</P>
+                    <P>Las herramientas las cuales mas uso ultimamente son el html y css para la creacion de paginas web, y el fl studio para componer musica desde computadora o telefono movil ,otra herramienta seria el Excel para administrar información de cualquir tipo, siempre y cuando cumpla con las intenciones del cliente.</P>
+            </div>
+        <div class="caja_herramientas_derecha">
+            <div class="arriba"><img class="logos" src="src/image/html.png">
+                <img class="logos" src="src/image/css.png" >
+                <img class="logos" src="src/image/github_101792.png" ></div>
+            <div class="abajo"><img class="logos" src="src/image/csha.png" >
+                <img class="logos" src="src/image/ISO_C++_Logo.svg" ></div>
+        </div>
+    </section>
+        
+</div>
+        <div class="item" id="contacto">
+            <h2>contacto</h2>
+            <p>Complete su información en el siguiente Formulario y espero tener noticias suyas. Que tenga un lindo dia </p>
+            <form class="Formulario">
+                <label for="name">Nombre:</label><br>
+                <input class="cuadroformulario" type="text" required><br>
+                <label for="apellido">Apellido</label><br>
+                <input class="cuadroformulario" type="text" required2><br>
+                <label for="mail">Email:</label><br>
+                <input class="cuadroformulario" type="email" required><br>
+                <label for="msg">Mensaje:</label><br>
+                <textarea class="cuadroformulario" id="msg" name="user_message"></textarea>
+                  <div><input class="cuadroenviar" type="submit" value="Enviar Mensaje"></div>
+              </form>
+    </main>
 </body>
 </html>
