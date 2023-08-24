@@ -1,0 +1,258 @@
+
+.body{
+    background-image:linear-gradient(to  top,black,rgb(44, 60, 181),aquamarine);
+    font-family:sans-serif;
+    padding: 0;
+    margin: 0;
+}
+main{
+    color: white;
+}
+
+header{
+    /*display: flex;
+    height: 80px;
+    border-radius: 50px;
+    justify-content: space-between;
+    background-color: black;
+    background-position:inherit;
+    background-size: cover;
+    padding: 40px;*/
+}
+/*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+}*/
+.banner li{
+    color: white;
+    list-style: none;
+}
+.nombre{
+    color: white;
+}
+.banner{
+   
+    padding: 9rem 3rem;
+    text-align: center;
+
+    /*height: 40px;
+    display: flex;
+    font-size: 35px;
+    line-height: 40px;
+    overflow: hidden;*/
+}
+/*
+.cas{
+    margin: 0;
+    padding-left: 10px;
+}
+ul,p{
+    margin: 0;
+    padding-left: 10px;
+}
+p{
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+ul{
+    list-style: none;
+    animation: movimiento 10s infinite;
+}
+ul li{
+    background-image: linear-gradient(90deg, #ed0de2, #ff0);
+    -webkit-text-fill-color: transparent;
+    padding: 0 5px;
+    letter-spacing: 1px;
+}
+@keyframes movimiento{
+    0%{margin-top: 0;}
+    20%{margin-top: 0;}
+    
+    25%{margin-top: -40px;}
+    50%{margin-top: -40px;}
+
+    55%{margin-top: -80px;}
+    80%{margin-top: -80px;}
+
+    85%{margin-top: -40px;}
+    95%{margin-top: -40px;}
+
+    100%{margin-top: 0;}
+    
+}*/
+.container{
+    width: 100%;
+    height: 60px;
+    background: #292828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+
+.menu__opciones:hover{
+    color: aquamarine;
+}
+.menu__opciones{
+    
+    padding: 10px;
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.item{
+    
+    justify-content: center;
+    padding: 40PX;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+    display: flex;
+}
+
+.Nombre{
+    color: white;
+}
+
+
+
+.Formulario{
+    color: rgb(255, 254, 254);
+    padding: 20px;
+}
+.cuadroformulario:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    
+}
+.cuadroformulario{
+    padding: 10px;
+    border-radius: 20px;
+}
+.cuadroenviar:hover{
+    color: white;
+    background-color: #292828;
+
+}
+.cuadroenviar{
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 20px;  
+}
+
+
+
+.logos{
+    
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+}
+.caja_herramientas{
+    margin:30px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.caja_herramientas_izquierda{
+    width: 50%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caja_herramientas_derecha{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caja-madre{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.caja1{
+    color: white;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cajacenter{
+width: 250px;
+}
+.caja2{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fotico{
+    width: 250px;
+    height: 200px;
+}
+.caja-madre1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.caja12{
+   
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja22{
+    color: white;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cas{
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+@keyframes slidein{
+    from{
+        margin-top: 100%;
+        width: 300%;
+    }
+    to{
+        margin-top: 0;
+        width: 100%;
+    }
+}
